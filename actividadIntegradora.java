@@ -10,7 +10,8 @@ public class actividadIntegradora {
     miScanner.close();
   } */
   public static void main(String[] args) {
-    try (Scanner scanner = new Scanner(System.in)) {// Imprimir mensaje para solicitar al usuario que ingrese el número correspondiente a la operación
+    try (Scanner scanner = new Scanner(System.in)) {
+      // Imprimir mensaje para solicitar al usuario que ingrese el número correspondiente a la operación
       System.out.println("Ingresa el número correspondiente a la operación:");
       System.out.println("1: Sumar");
       System.out.println("2: Restar");
@@ -36,9 +37,11 @@ public class actividadIntegradora {
       (operacion == 2) ? "Resultado: " + (numero1 - numero2) :
       // Si operacion es igual a 3, realiza la multiplicación de numero1 y numero2
       (operacion == 3) ? "Resultado: " + (numero1 * numero2) :
-      // Si operacion es igual a 4, verifica si numero2 es diferente de cero y realiza la división de numero1 y numero2
+      // Si operacion es igual a 4, verifica si numero2 es diferente de cero y realiza 
+      // la división de numero1 y numero2
       (operacion == 4) ? (numero2 != 0 ? "Resultado: " + (numero1 / numero2) : "Error: División por cero") :
-      // Si ninguna de las condiciones anteriores se cumple, asigna la cadena "Operación no válida" a resultado
+      // Si ninguna de las condiciones anteriores se cumple, asigna la cadena 
+      // "Operación no válida" a resultado
       "Operación no válida";
       
       // Imprimir el resultado de la operación matemática
