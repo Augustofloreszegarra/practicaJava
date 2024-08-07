@@ -6,7 +6,7 @@ public class estructurasDeControl3 {
     
     try (Scanner scanner = new Scanner(System.in)) {
 
-      /* //Escribe un programa que pida al usuario que ingrese dos números 
+      //Escribe un programa que pida al usuario que ingrese dos números 
       //enteros y realice la división del primer número entre el segundo 
       //número. Implementa un bloque "try-catch" para manejar la excepción 
       //en caso de que se intente realizar una división por cero. En caso de 
@@ -26,7 +26,7 @@ public class estructurasDeControl3 {
         System.out.println("Error: Se detectó un valor inválido ingresado por teclado.");
       } finally {
         scanner.close();
-      } */
+      }
 
 
       /* //Escribe un programa que solicite al usuario ingresar dos números. Luego, 
